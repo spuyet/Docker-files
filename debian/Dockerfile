@@ -1,3 +1,4 @@
 FROM debian
 RUN apt-get update
-RUN apt-get -y install git make gcc clang
+RUN apt-get -y install git make gcc clang lldb
+
